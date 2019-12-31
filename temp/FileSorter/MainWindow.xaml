@@ -11,7 +11,7 @@
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="label1" HorizontalAlignment="Left" Margin="95,38,0,0" VerticalAlignment="Top" Height="321" Width="597" Grid.ColumnSpan="2" ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Visible" HorizontalContentAlignment="Center"/>
+        <Button x:Name="selectBtn" Grid.ColumnSpan="2" Content="Select Path" HorizontalAlignment="Left" Margin="357,183,0,0" VerticalAlignment="Top" Width="75" Click="selectBtn_Click"/>
 
     </Grid>
 </Window>

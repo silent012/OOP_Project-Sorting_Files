@@ -12,3 +12,8 @@ C:\Users\Wojtek\source\repos\FileSorter\FileSorter\obj\Debug\FileSorter.Properti
 C:\Users\Wojtek\source\repos\FileSorter\FileSorter\obj\Debug\FileSorter.csproj.GenerateResource.cache
 C:\Users\Wojtek\source\repos\FileSorter\FileSorter\obj\Debug\FileSorter.exe
 C:\Users\Wojtek\source\repos\FileSorter\FileSorter\obj\Debug\FileSorter.pdb
+C:\Users\Wojtek\source\repos\FileSorter\FileSorter\bin\Debug\Ookii.Dialogs.dll
+C:\Users\Wojtek\source\repos\FileSorter\FileSorter\bin\Debug\Ookii.Dialogs.Wpf.dll
+C:\Users\Wojtek\source\repos\FileSorter\FileSorter\bin\Debug\Ookii.Dialogs.xml
+C:\Users\Wojtek\source\repos\FileSorter\FileSorter\bin\Debug\Ookii.Dialogs.Wpf.xml
+C:\Users\Wojtek\source\repos\FileSorter\FileSorter\obj\Debug\FileSorter.csproj.CopyComplete
