@@ -1,0 +1,15 @@
+{
+  "FileSorter": "FileSorter.yml",
+  "FileSorter.App": "FileSorter.App.yml",
+  "FileSorter.DateService": "FileSorter.DateService.yml",
+  "FileSorter.DateService.DAGreaterOrEqual(System.Int32,System.String)": "FileSorter.DateService.yml",
+  "FileSorter.DateService.DaysAgo(System.Int32,System.String)": "FileSorter.DateService.yml",
+  "FileSorter.DateService.GetInstance": "FileSorter.DateService.yml",
+  "FileSorter.DateService.MAGreaterOrEqual(System.Int32,System.String)": "FileSorter.DateService.yml",
+  "FileSorter.DateService.MonthsAgo(System.Int32,System.String)": "FileSorter.DateService.yml",
+  "FileSorter.FileManager": "FileSorter.FileManager.yml",
+  "FileSorter.FileManager.GetInstance": "FileSorter.FileManager.yml",
+  "FileSorter.FileManager.ManageFiles(System.String,System.String,System.String)": "FileSorter.FileManager.yml",
+  "FileSorter.MainWindow": "FileSorter.MainWindow.yml",
+  "FileSorter.MainWindow.#ctor": "FileSorter.MainWindow.yml"
+}

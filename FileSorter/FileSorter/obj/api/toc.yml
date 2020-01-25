@@ -1,0 +1,12 @@
+### YamlMime:TableOfContent
+- uid: FileSorter
+  name: FileSorter
+  items:
+  - uid: FileSorter.App
+    name: App
+  - uid: FileSorter.DateService
+    name: DateService
+  - uid: FileSorter.FileManager
+    name: FileManager
+  - uid: FileSorter.MainWindow
+    name: MainWindow

@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: FileSorter
+  commentId: N:FileSorter
+  id: FileSorter
+  children:
+  - FileSorter.App
+  - FileSorter.DateService
+  - FileSorter.FileManager
+  - FileSorter.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: FileSorter
+  nameWithType: FileSorter
+  fullName: FileSorter
+  type: Namespace
+  assemblies:
+  - FileSorter
+references:
+- uid: FileSorter.DateService
+  commentId: T:FileSorter.DateService
+  parent: FileSorter
+  name: DateService
+  nameWithType: DateService
+  fullName: FileSorter.DateService
+- uid: FileSorter.FileManager
+  commentId: T:FileSorter.FileManager
+  parent: FileSorter
+  name: FileManager
+  nameWithType: FileManager
+  fullName: FileSorter.FileManager
+- uid: FileSorter.App
+  commentId: T:FileSorter.App
+  name: App
+  nameWithType: App
+  fullName: FileSorter.App
+- uid: FileSorter.MainWindow
+  commentId: T:FileSorter.MainWindow
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: FileSorter.MainWindow
+- uid: FileSorter
+  commentId: N:FileSorter
+  name: FileSorter
+  nameWithType: FileSorter
+  fullName: FileSorter
