@@ -5,6 +5,15 @@ namespace FileSorter
 {
     class SortFiles
     {
+        /// <summary>
+        ///  Main file sorting class.
+        /// </summary>
+        /// <remarks>
+        /// Creates FolderBrowsereDialog object, sets its description so that user knows what to do
+        /// and how the program works. Blocks user from creating any new folder.
+        /// After user selects the path, it gets files from selected directory
+        /// and performs methods of FileManager and DateService on each file.
+        /// </remarks>
         public void Sort ()
         {
             FolderBrowserDialog fbd = new FolderBrowserDialog
