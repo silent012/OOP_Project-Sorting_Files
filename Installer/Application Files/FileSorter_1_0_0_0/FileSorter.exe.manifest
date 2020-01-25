@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FileSorter.exe" version="1.0.0.0" publicKeyToken="c77c0dbf7e3351b7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FileSorter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FileSorter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileSorter.exe" size="12264">
+      <assemblyIdentity name="FileSorter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LP33qy0efzc0NCZ4gpdv/TbBAzM/DlacPyHAqlwGCBc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ookii.Dialogs.dll" size="133296">
+      <assemblyIdentity name="Ookii.Dialogs" version="1.0.0.0" publicKeyToken="0C15020868FD6249" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xStxkzRub222+YAzZ0IuMhwmjTPg/ZVvyvxDdQwnbNc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ookii.Dialogs.Wpf.dll" size="107696">
+      <assemblyIdentity name="Ookii.Dialogs.Wpf" version="1.0.0.0" publicKeyToken="0C15020868FD6249" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BLjLVf9IGk9PmmC8PF4G7XjBKoZ3whFiHtz52EZ72CM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name=".gitignore" size="107">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2lIqWUih6sZFqiu/rwy9GldNebU56iNPBCGhTCxsHxc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="api\.gitignore" size="55">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v2tEW3z+g9aI3TxIeXzDQD+e+22WcZgmojMXfgROcGY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FileSorter.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X+GtgC9o18R9u9jmAWK6iKuu0WLaXTgchdPkk1MRli4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-5NE43A9\Wojtek" issuerKeyHash="311ffa3300be4f8447b66a0ba3bd417bb339f6de" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MgxIRxx5ZdmiNAC0V3R4lreqgq0+pspx+EOzpzp0blE=</DigestValue></Reference></SignedInfo><SignatureValue>qtJmvVHCxdTYM1qlKOnlVyMGhqndMDpReMmxEPLrLP5bhCklNlRGxDNJ9L8aZkNLRy0KxqUZHAfDOceD5OyxIU5SVwE2hA2wlgt07XXNbwSKlmyxfRr/2DbQsSij1kgAlaYHQ4PeIheSDKm7sRKNjIC2bhK5IPpxCY+FIR1wrcc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tfr+PtvCNkaUwIWWPtjQGQuk6AusRgkNmB368VjLhJk4e/BP45TweYIA0jr5MUnkRrEH3uO3iLB9eLc5EFPOYYWw98VTOlXo5+lUoZzSFBUJvoKxHmev594ArpwpcwATbHcytyvySPVAc/aRfSzZj57ClkVQAYe5Q54KTEZfKBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="516e743aa7b343f871caa63ead82aab796787457b40034a2d965791c47480c32" Description="" Url=""><as:assemblyIdentity name="FileSorter.exe" version="1.0.0.0" publicKeyToken="c77c0dbf7e3351b7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5NE43A9\Wojtek</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>C0dNYR0WK43/u654FEcro34SvcosFQ94I2ax/LTFbJU=</DigestValue></Reference></SignedInfo><SignatureValue>X4/E0pp3q98nU3UEcb5qC9ovPgHq69DCSUN0pgMAv1r815oA1Wsfj+XsWs6HdLMl9acWf3T2uBSNFYKiggJooXPCLo5l1bVA3SFx+lR0cIdsYUGIbwJEFb0uLAgySc4o12gGbZT/vCDrERE5COq+xPi7Y2K/g3UByzw4t8Mivm0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tfr+PtvCNkaUwIWWPtjQGQuk6AusRgkNmB368VjLhJk4e/BP45TweYIA0jr5MUnkRrEH3uO3iLB9eLc5EFPOYYWw98VTOlXo5+lUoZzSFBUJvoKxHmev594ArpwpcwATbHcytyvySPVAc/aRfSzZj57ClkVQAYe5Q54KTEZfKBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQeQwkVfJNDqdMGaq6TczrvjANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADUATgBFADQAMwBBADkAXABXAG8AagB0AGUAazAeFw0yMDAxMjUyMjQwMDhaFw0yMTAxMjUwNDQwMDhaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ANQBOAEUANAAzAEEAOQBcAFcAbwBqAHQAZQBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1+v4+28I2RpTAhZY+2NAZC6ToC6xGCQ2YHfrxWMuEmTh78E/jlPB5ggDSOvkxSeRGsQfe47eIsH14tzkQU85hhbD3xVM6Vejn6VShnNIUFQm+grEeZ6/n3gCunClzABNsdzK3K/JI9UBz9pF9LNmPnsKWRVABh7lDngpMRl8oFQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABjrvF155cqsqINaAQSnjWgo7Trf+AWhrWnCeWpYtjuTY7ujIMdLlXwuTTo9LxGHhwCiIlrZJ1IKGDkEaLfI1feBt56r5JfIKyb8f1fSBe79Fvzc1WqAW1NWe5s/54XgvEoKVthzD92XRBC49iOm5oFR3gA5vWaJ8pa3he8NFuj+</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
