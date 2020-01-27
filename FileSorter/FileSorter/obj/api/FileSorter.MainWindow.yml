@@ -15,7 +15,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/MainWindow.xaml.cs
+      path: FileSorter/FileSorter/MainWindow.xaml.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: MainWindow
     path: MainWindow.xaml.cs
     startLine: 4
@@ -746,7 +748,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/MainWindow.xaml.cs
+      path: FileSorter/FileSorter/MainWindow.xaml.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: .ctor
     path: MainWindow.xaml.cs
     startLine: 7

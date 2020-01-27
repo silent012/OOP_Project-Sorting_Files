@@ -16,7 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/FileManager.cs
+      path: FileSorter/FileSorter/FileManager.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: FileManager
     path: FileManager.cs
     startLine: 4
@@ -57,7 +59,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/FileManager.cs
+      path: FileSorter/FileSorter/FileManager.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: GetInstance
     path: FileManager.cs
     startLine: 11
@@ -89,7 +93,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/FileManager.cs
+      path: FileSorter/FileSorter/FileManager.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: ManageFiles
     path: FileManager.cs
     startLine: 26

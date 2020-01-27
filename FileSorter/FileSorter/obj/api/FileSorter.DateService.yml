@@ -19,7 +19,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/DateService.cs
+      path: FileSorter/FileSorter/DateService.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: DateService
     path: DateService.cs
     startLine: 5
@@ -60,7 +62,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/DateService.cs
+      path: FileSorter/FileSorter/DateService.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: GetInstance
     path: DateService.cs
     startLine: 14
@@ -92,7 +96,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/DateService.cs
+      path: FileSorter/FileSorter/DateService.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: MonthsAgo
     path: DateService.cs
     startLine: 29
@@ -132,7 +138,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/DateService.cs
+      path: FileSorter/FileSorter/DateService.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: DaysAgo
     path: DateService.cs
     startLine: 43
@@ -172,7 +180,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/DateService.cs
+      path: FileSorter/FileSorter/DateService.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: MAGreaterOrEqual
     path: DateService.cs
     startLine: 57
@@ -212,7 +222,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/DateService.cs
+      path: FileSorter/FileSorter/DateService.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: DAGreaterOrEqual
     path: DateService.cs
     startLine: 71

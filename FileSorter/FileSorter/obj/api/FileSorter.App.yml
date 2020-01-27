@@ -14,7 +14,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/Wojtek/source/repos/FileSorter/FileSorter/App.xaml.cs
+      path: FileSorter/FileSorter/App.xaml.cs
+      branch: master
+      repo: https://github.com/silent012/OOP_Project-Sorting_Files
     id: App
     path: App.xaml.cs
     startLine: 13
